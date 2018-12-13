@@ -1,0 +1,24 @@
+{
+  "name": "css-grids-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "codemirror": "^5.42.0",
+    "css": "^2.2.4",
+    "css-loader": "^2.0.0",
+    "mdx-deck": "^1.8.2",
+    "outdent": "^0.7.0",
+    "react-codemirror2": "^5.1.0",
+    "sanitize-html": "^1.19.3",
+    "style-loader": "^0.23.1",
+    "styled-components": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx"
+  },
+  "author": "",
+  "license": "ISC"
+}
